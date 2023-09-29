@@ -120,8 +120,11 @@ nav a:hover, nav a:focus{
 
 .skip a:focus{
   /* transition: width 3s, height 3s, transform 3s; */
-  top: 20px; 
-  border: solid 2px blue; 
+  top: 20px;  
+}
+
+a:focus{
+  border: solid 2px blue;
 }
 
 /* Step 2b: Write selector/rule property to position the skip class element when it is in focus*/
@@ -210,6 +213,7 @@ first div in the grid  and place it in the grid. */
     padding-bottom: 30px;
     padding-right: 0;
     padding-left: 0;
+    text-align: right;
   }
 
   .container{
